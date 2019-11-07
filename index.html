@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration</title>
+    <!-- <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.2/cerulean/bootstrap.min.css" rel="stylesheet" integrity="sha384-EmRcsPP774S9MOi4ywB+JXUWjYnBdyInMzG2XsC5siZEUpexqxOMJW358dCYEjPu" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/custom.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="col-md-12">
+            <h2 id="welcome" class="p-3 mb-2 bg-primary">"Hello Javascript" Training by Munkhzorig</h2>
+            <div id="time"></div>
+            <h6>Time is ticking! Don't miss, register now!</h6>
+
+            <form method="POST" onsubmit="return false;">
+                <div>
+                    <label>Student ID</label>
+                    <input type="text" id="sid" class="form-control" placeholder="000-XX-XXXX" pattern="^000-\d{2}-\d{4}" required>
+                    <small>Your unique student identification number</small>
+                </div>
+                <div>
+                    <label>First Name</label>
+                    <input type="text" id="firstName" class="form-control" placeholder="e.g. Munkhzorig" required>
+                </div>
+                <button type="submit" id='submitButton' class="btn btn-primary btn-lg">Register</button>
+            </form>
+            <div>
+                <table class="table">
+                    <tr class="p-3 mb-2 bg-primary text-white">
+                        <th>Student Code</th>
+                        <th>Student Name</th>
+                    </tr>
+                </table>
+                <h6>*Students who registered</h6>
+            </div>
+        </div>
+        <div>
+            <span>
+                  <a href="http://validator.w3.org/check/referer"> 
+                     <img src="http://mumstudents.org/cs472/2013-09/images/w3c-html.png" alt="Validate" /> 
+                  </a>
+            </span>
+            <span> 
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" /></a> 
+            </span>
+        </div>
+
+    </div>
+    <script src="JS/app.js"></script>
+</body>
+
+</html>

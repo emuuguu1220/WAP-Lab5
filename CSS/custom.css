@@ -1,0 +1,28 @@
+.container {
+    margin-top: 1em;
+}
+
+#submitButton {
+    margin-top: 0.5em;
+}
+
+#listHead {
+    background-color: blue;
+}
+
+div {
+    margin-top: 1em;
+}
+
+#welcome {
+    color: yellow;
+}
+
+#time {
+    color: red;
+}
+
+h6 {
+    text-align: right;
+    color: green;
+}
